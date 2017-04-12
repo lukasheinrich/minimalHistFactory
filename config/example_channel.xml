@@ -1,0 +1,12 @@
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>
+<Channel Name="channel1" InputFile="">
+  <Data HistoPath="" HistoName="data" InputFile="./data/helloworld_data.root"/>
+
+  <Sample Name="signal" HistoPath="" HistoName="signalhist" InputFile="./data/helloworld_signal.root">
+    <NormFactor Name="SigXsecOverSM" Val="1" Low="0." High="3."  />
+  </Sample>
+
+  <Sample Name="background" HistoPath="" HistoName="background" InputFile="./data/helloworld_background.root">
+  </Sample>
+
+</Channel>
